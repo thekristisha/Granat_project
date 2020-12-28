@@ -1,0 +1,5 @@
+.pics-grid{
+    display: grid;
+    grid-template-areas:"tel post1 post2"
+                        "tel post3 post4";
+}

@@ -1,0 +1,11 @@
+.photo__grid{
+    border: 1px solid #444140;
+    padding-top: 15px ;
+    margin: 0 auto 50px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

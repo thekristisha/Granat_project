@@ -1,0 +1,24 @@
+.cases__pics{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.cases__pics.medina{
+    background-color: #66c2c6;
+}
+
+.cases__pics.vasilki{
+    background-color: #344e95;
+}
+
+.cases__pics.cosmetologi{
+    background-color: #113e58;
+}
+
+.cases__pics.bestClinic{
+    background-color: #dfbead;
+}
+
+.cases__pics.tyanuchka{
+    background-color: #f7b3d8;
+}

@@ -1,0 +1,8 @@
+.photo__container{
+    margin: 50px 0;
+    max-width: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}

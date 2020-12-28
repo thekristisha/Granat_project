@@ -1,0 +1,17 @@
+@import url(./__swiper/cases__swiper.css);
+@import url(./__title/cases__title.css);
+@import url(./__container/cases__container.css);
+@import url(./__description/cases__description.css);
+@import url(../point/point.css);
+@import url(./__pics/cases__pics.css);
+@import url(./__telephone/cases__telephone.css);
+@import url(./__post/cases__post.css);
+@import url(../pics-grid/pics-grid.css);
+.cases{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin-top: 100px;
+}

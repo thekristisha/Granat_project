@@ -1,0 +1,15 @@
+@import url(./__title/clients__title.css);
+@import url(./__container/clients__container.css);
+@import url(./__subtitle/clients__subtitle.css);
+@import url(./__logo/clients__logo.css);
+@import url(../blocks/clients/clients.css);
+@import url(./__restaurants/clients__restaurants.css);
+@import url(./__beauty/clients__beauty.css);
+@import url(./__brands/clients__brands.css);
+.clients{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}

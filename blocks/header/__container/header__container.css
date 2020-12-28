@@ -1,0 +1,19 @@
+
+.header__container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+}
+.header__container:first-child{
+    margin-left: 70px;
+}
+.header__container:last-child{
+    margin-right: 70px;
+}
+.header__container:hover .header__decor{
+    opacity: 1;
+    transition: 1s;
+}
+
+

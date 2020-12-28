@@ -1,0 +1,9 @@
+.photo__title-container{
+    width: 336px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4989D;
+    font-size: 22px;
+}

@@ -1,0 +1,7 @@
+@import url(./__socail/footer__socail.css);
+@import url(./__link/footer__link.css);
+@import url(./__img/footer__img.css);
+
+.footer{
+    background-color: #444140;
+}

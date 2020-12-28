@@ -1,0 +1,7 @@
+.header__decor{
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    background-color: #EAEAE8;
+    transition: 1s;
+}

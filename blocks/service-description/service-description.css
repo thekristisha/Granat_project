@@ -1,0 +1,40 @@
+.service-description.servise-busines{
+    margin: auto;
+    grid-area: block13;
+}
+.service-description.service-audience{
+    margin: 220px auto 0 ;
+    grid-column-start: block12;
+    grid-row-start: block12;
+    grid-row-end: block22;
+}
+.service-description.service-competitors{
+    margin: 100px auto 0;
+    grid-column-start: block34;
+    grid-row-start: block34;
+    grid-row-end: block44;
+}
+.service-description.service-attraction{
+    margin: auto;
+    grid-area: block43;
+}
+.service-description.service-retention{
+    margin: 100px auto 0;
+    grid-column-start: block32;
+    grid-row-start: block32;
+    grid-row-end: block42;
+}
+.service-description.service-analysis{
+    margin: 250px auto 0;
+    grid-column-start: block14;
+    grid-row-start: block14;
+    grid-row-end: block24;
+}
+
+
+.service-description{
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}

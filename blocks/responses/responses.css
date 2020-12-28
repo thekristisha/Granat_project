@@ -1,0 +1,14 @@
+@import url(./__title/responses__title.css);
+@import url(./__subtitle/responses__subtitle.css);
+@import url(./__feedback/responses__feedback.css);
+@import url(../popup-image/popup-image.css);
+@import url(./__swiper/responses__swiper.css);
+
+.responses{
+    max-width: 1440px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

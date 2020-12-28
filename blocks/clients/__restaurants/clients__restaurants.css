@@ -1,0 +1,9 @@
+.clients__restaurants{
+    width: 400px;
+    display: grid;
+    grid-template-areas: "subtitle subtitle"
+                        "logo11 logo12"
+                        "logo21 logo22";
+    justify-content: center;
+    align-items: center;
+}

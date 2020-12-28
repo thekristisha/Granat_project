@@ -1,0 +1,5 @@
+.photo__first-column{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+}

@@ -1,0 +1,16 @@
+.link{
+text-decoration: none;
+color: #EAEAE8;
+font-family: Montserrat;
+font-size: 24px;
+line-height: 44px;
+align-self: center;
+display: flex;
+justify-content: center;
+}
+.link:first-child{
+    margin-left: 30px;
+}
+.link:last-child{
+    margin-right: 30px;
+}

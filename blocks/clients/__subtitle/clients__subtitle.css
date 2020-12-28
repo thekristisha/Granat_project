@@ -1,0 +1,5 @@
+.clients__subtitle{
+    font-size: 36px;
+    grid-area: subtitle;
+    margin: 0 auto 20px;
+}

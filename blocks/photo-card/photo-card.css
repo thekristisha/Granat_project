@@ -1,0 +1,15 @@
+@import url(./__description/photo-card__description.css);
+@import url(./__image/photo-card__image.css);
+@import url(./__like-icon/photo-card__like-icon.css);
+@import url(./__name/photo-card__name.css);
+
+
+.photo-card {
+  border: 1px solid #444140;
+  width: 282px;
+  margin: 0 15px 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 360px;
+}
+

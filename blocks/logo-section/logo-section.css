@@ -1,0 +1,12 @@
+@import url(./__logo/logo-section__logo.css);
+@import url(./__title/logo-section__title.css);
+
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    justify-self:center;
+    max-width: 751px;
+    margin-top: 50px;
+}

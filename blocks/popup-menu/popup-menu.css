@@ -1,0 +1,12 @@
+@import url(./__link-container/popup-menu__link-container.css);
+@import url(./__nav/popup-menu__nav.css);
+.popup-menu{
+    position: relative;
+    z-index: 5;
+    transition: 1s;
+    margin-left: 380px;
+    width: 35%;
+    height: 20%;
+    background-color: #444140;
+    opacity: 0;
+}

@@ -1,0 +1,12 @@
+@import url(./__logo/grid-title__logo.css);
+@import url(./__photo/grid-title__photo.css);
+.grid-title{
+    border: 1px solid #444140;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    margin: 50px auto 0;
+    width: 1000px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.services-container{
+    max-width: 1440px;
+    height: 850px;
+    margin: 100px 0;
+    display: grid;
+    grid-template-areas:"block11 block12 block13 block14 block15"
+                        "block21 block22 block23 block24 block25"
+                        "block31 block32 block33 block34 block35"
+                        "block41 block42 block43 block44 block45";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);  
+}

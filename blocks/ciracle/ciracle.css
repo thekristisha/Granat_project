@@ -1,0 +1,125 @@
+.ciracle{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #444140;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    transition: 1s ease-in-out;
+}
+
+.ciracle:hover{
+    background-color: #E4989D;
+    cursor: pointer;
+}
+
+.ciracle.business{
+    grid-area: block13;
+}
+
+.ciracle.business:hover{
+    -o-transform: translateY(325px);
+    -ms-transform: translateY(325px);
+    -moz-transform: translateY(325px);
+    -webkit-transform: translateY(325px);
+    transform: translateY(325px);
+    
+}
+.ciracle.business:hover + .servise-busines{
+    opacity: 1;
+    transition: 2s;
+}
+
+.ciracle.audience{
+    margin: 150px auto 0;
+    grid-column-start: block12;
+    grid-row-start: block12;
+    grid-row-end: block22;
+}
+.ciracle.audience:hover{
+    -o-transform: translate(275px, 175px);
+    -ms-transform: translate(275px, 175px);
+    -moz-transform: translate(275px, 175px);
+    -webkit-transform: translate(275px, 175px);
+    transform: translate(275px, 175px);
+}
+.ciracle.audience:hover+.service-audience{
+    opacity: 1;
+    transition: 2s;
+}
+
+.ciracle.competitors{
+    margin: 50px auto;
+    grid-column-start: block34;
+    grid-row-start: block34;
+    grid-row-end: block44;
+}
+
+.ciracle.competitors:hover{
+    -o-transform: translate(-280px, -150px);
+    -ms-transform: translate(-280px, -150px);
+    -moz-transform: translate(-280px, -150px);
+    -webkit-transform: translate(-280px, -150px);
+    transform: translate(-280px, -150px);
+}
+.ciracle.competitors:hover+.service-competitors{
+    opacity: 1;
+    transition: 2s;
+}
+
+
+.ciracle.attraction{
+    grid-area: block43;
+}
+.ciracle.attraction:hover{
+    -o-transform: translateY(-325px);
+    -ms-transform: translateY(-325px);
+    -moz-transform: translateY(-325px);
+    -webkit-transform: translateY(-325px);
+    transform: translateY(-325px);
+}
+.ciracle.attraction:hover+.service-attraction{
+    opacity: 1;
+    transition: 2s;
+}
+
+.ciracle.retention{
+    margin: 50px auto;
+    grid-column-start: block32;
+    grid-row-start: block32;
+    grid-row-end: block42;
+}
+.ciracle.retention:hover{
+    -o-transform: translate(280px, -150px);
+    -ms-transform: translate(280px, -150px);
+    -moz-transform: translate(280px, -150px);
+    -webkit-transform: translate(280px, -150px);
+    transform: translate(280px, -150px);
+}
+.ciracle.retention:hover+.service-retention{
+    opacity: 1;
+    transition: 2s;
+}
+
+.ciracle.analysis{
+    margin: 150px auto 0;
+    grid-column-start: block14;
+    grid-row-start: block14;
+    grid-row-end: block24;
+}
+.ciracle.analysis:hover{
+    -o-transform: translate(275px, 175px);
+    -ms-transform: translate(275px, 175px);
+    -moz-transform: translate(275px, 175px);
+    -webkit-transform: translate(275px, 175px);
+    transform: translate(-275px, 175px); 
+}
+.ciracle.analysis:hover+.service-analysis{
+    opacity: 1;
+    transition: 2s;
+}

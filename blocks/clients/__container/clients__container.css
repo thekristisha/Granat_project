@@ -1,0 +1,7 @@
+.clients__container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:"block11 block12 block13";
+    column-gap: 20px;
+    align-items: center;
+}

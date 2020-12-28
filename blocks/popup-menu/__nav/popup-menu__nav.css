@@ -1,0 +1,8 @@
+.popup-menu__nav{
+
+    margin-left: 20px ;
+    text-decoration: none;
+    color: #EAEAE8;
+    font-size: 18px;
+    transition: transform 0.5s ease-in-out;
+}

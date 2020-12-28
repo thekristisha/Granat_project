@@ -1,0 +1,31 @@
+.cases__post{
+    width: 200px;
+    height: 200px;
+    margin: 0 40px 0 0;
+}
+.cases__post.post1{
+    grid-column-start: post1;
+    grid-row-start: post1;
+    grid-row-end: post1;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.cases__post.post2{
+    grid-column-start: post2;
+    grid-row-start: post2;
+    grid-row-end: post2;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.cases__post.post3{
+    margin-top: 20px;
+    grid-column-start: post3;
+    grid-row-start: post3;
+    grid-row-end: post3;
+}
+.cases__post.post4{
+    margin-top: 20px;
+    grid-column-start: post4;
+    grid-row-start: post4;
+    grid-row-end: post4;
+}
