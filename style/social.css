@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);  
+@import url(../blocks/main-page/main-page.css); 
+@import url(../blocks/popup-menu/popup-menu.css);
+@import url(../blocks/services-container/services-container.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/service-description/service-description.css);
+@import url(../blocks/ciracle/ciracle.css);
+@import url(../blocks/footer/footer.css); 

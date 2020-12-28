@@ -1,0 +1,24 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css); 
+@import url(../blocks/main-page/main-page.css); 
+@import url(../blocks/header/header.css);
+@import url(../blocks/popup-menu/popup-menu.css);
+@import url(../blocks/link/link.css); 
+@import url(../blocks/grid-title/grid-title.css); 
+@import url(../blocks/photo/__container/photo__container.css); 
+@import url(../blocks/photo/__first-column/photo__first-column.css); 
+@import url(../blocks/photo/__title-container/photo__title-container.css); 
+@import url(../blocks/photo/__description/photo__description.css); 
+@import url(../blocks/main-part/main-part.css); 
+@import url(../blocks/bullet/bullet.css); 
+@import url(../blocks/photo/__grid/photo__grid.css); 
+@import url(../blocks/popup-image/popup-image.css); 
+@import url(../blocks/photo-card/photo-card.css); 
+@import url(../blocks/logo-section/logo-section.css); 
+@import url(../blocks/cards-container/cards-container.css); 
+@import url(../blocks/card-offer/card-offer.css); 
+@import url(../blocks/how-it-works/how-it-works.css); 
+@import url(../blocks/card-action/card-action.css); 
+@import url(../blocks/footer/footer.css); 
+

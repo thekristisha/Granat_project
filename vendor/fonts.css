@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Regular.ttf) format('truetype');
+
+}
+@font-face{
+    font-family: 'Spectral';
+    font-style:  normal;
+    font-weight: 300;
+    src: url(./fonts/Spectralregular.woff) format('woff'),
+        url(./fonts/Spectralregular.woff2) format('woff2');
+}
+
