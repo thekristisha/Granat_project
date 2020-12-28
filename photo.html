@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/photo.css">
+    <link rel="icon" href="./images/pomegranat.png" type="image/x-icon">
+    <title>PomeGranate Project - Фото для вашего бизнеса</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <section class="main-page">
+            <header class="header header__theme_light">
+
+                <div class="header__container">
+                    <a href="./index.html" class="header__link">Главная</a>
+                    <div class="header__decor"></div>
+                </div>
+
+                <div class="header__container">
+                    <a href="" class="header__link header__menu">Наши услуги</a>
+                    <div class="header__decor"></div>
+                </div>
+
+                <div class="header__container">
+                    <a href="./clients.html" class="header__link">Клиенты и отзывы</a>
+                    <div class="header__decor"></div>
+                </div>
+
+                <div class="header__container">
+                    <a href="" class="header__link">Контакты</a>
+                    <div class="header__decor"></div>
+                </div>
+
+            </header>
+
+            <div class="photo__container">
+                <div class="photo__first-column">
+                    <div class="photo__title-container">
+                        <h2 class="photo__title">Услуги фотографа</h2>
+                    </div>
+                </div>
+                <div class="photo__second-column">
+                    <ul class="photo__description">
+                        <li class="bullet">
+                            <span class="main-part">Съемка контента для сайта, социальных сетей, печатной
+                                продукции </span>- обновленные фото- и видеоматериалы, качественный контент, “продающая”
+                            упаковка вашего продукта.
+                        </li>
+                        <li class="bullet">
+                            <span class="main-part">Фото мероприятий заведения </span>- жизнь заведения не стоит на
+                            месте и социальные сети - яркий тому пример
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-title">
+                <img src="./images/pomegranat.png" alt="" class="grid-title__logo">
+                <p class="grid-title__photo">Услуги фотографа</p>
+            </div>
+            <div class="photo__grid">
+            
+                <template id="card-template" style="display: none">
+                    <div class="photo-card">
+                      <div class="photo-card__image"
+                        style="background-image: url(https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg)">
+                      </div>
+                      <div class="photo-card__description">
+                        <h3 class="photo-card__name"></h3>
+                        <button class="photo-card__like-icon"></button>
+                      </div>
+                    </div>
+                  </template>
+
+                  <div class="popup-image">
+                    <div class="popup-image__content">
+                        <img src="./images/close.svg" alt="" class="popup-image__close">
+                        <img src="" alt="" class="popup-image__img">
+                      </div>
+                </div>
+            </div>
+
+            <!-- <img src="./images/gallery/juwel1.jpg" alt=""> -->
+
+
+
+            <footer class="footer">
+                <ul class="footer__socail">
+                    <li class="footer__link">
+                        <a class="link" target="_blank" href="https://www.instagram.com/granate_project/"><img
+                                class="footer__img" src="./images/instagram.png" alt="instagram">Instagram</a>
+                    </li>
+                    <li class="footer__link">
+                        <a class="link" target="_blank"
+                            href="https://www.youtube.com/channel/UCU6eOEzZ40U5r9kwP3nkdkw"><img class="footer__img"
+                                src="./images/youtube.png" alt="Youtube">YouTube</a>
+                    </li>
+                    <li class="footer__link">
+                        <a class="link" target="_blank" href="https://www.facebook.com/granate.project"><img
+                                class="footer__img" src="./images/facebook.png" alt="Facebook">Facebook</a>
+                    </li>
+                    <li class="footer__link">
+                        <a class="link" target="_blank"
+                            href="https://www.linkedin.com/in/granate-project-9369b91b6/"><img class="footer__img"
+                                src="./images/linkedin.png" alt="LinkedIn">LinkedIn</a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+
+
+
+
+    </div>
+</body>
+<script src="./js/elements/ImgPopup.js"></script>
+<script src="./js/elements/Card.js"></script>
+<script src="./js/elements/CardList.js"></script>
+<script src="./js/photo.js"></script>
+</html>
